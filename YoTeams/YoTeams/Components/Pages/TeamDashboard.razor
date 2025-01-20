@@ -1,0 +1,119 @@
+@page "/teams/{id:int}"
+@rendermode InteractiveServer
+
+
+<PageTitle>YoTeams | Team @id</PageTitle>
+
+
+<div class="container mt-4">
+    <!-- Dashboard Stats -->
+    <div class="row g-3">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary p-3 text-center">
+                <h4>Total Members</h4>
+                <h2>@members.Count</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-success p-3 text-center">
+                <h4>Active Projects</h4>
+                <h2>5</h2>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-white bg-warning p-3 text-center">
+                <h4>Tasks Completed</h4>
+                <h2>76</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Strengths & Top Skilled Members -->
+    <div class="row mt-4 g-3">
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5 class="text-center">Team Strengths</h5>
+                <div class="chart-container">
+                    <canvas id="teamStrengthChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card p-3">
+                <h5>Top Skilled Members</h5>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>John Doe</strong> - Coding (9.5)</li>
+                    <li class="list-group-item"><strong>Jane Smith</strong> - Design (9.0)</li>
+                    <li class="list-group-item"><strong>Alice Johnson</strong> - Management (8.7)</li>
+                    <li class="list-group-item"><strong>Michael Brown</strong> - Problem Solving (8.5)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- About, Team Members, Recent Activity -->
+    <div class="row mt-4 g-3">
+        <div class="col-md-4">
+            <div class="card p-4">
+                <h4>About Our Team</h4>
+                <p>We are a passionate team of developers, designers, and project managers
+                    dedicated to building innovative solutions with high-quality user-centric design.</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h5>Team Members</h5>
+                <div class="list-group">
+                    <div class="list-group-item">
+                        <div class="d-flex align-items-center">
+                            <img src="https://via.placeholder.com/50" class="avatar me-3">
+                            <div>
+                                <strong>John Doe</strong> - Developer
+                                <p class="mb-1">Expert in full-stack development, focusing on high-performance applications.</p>
+                                <div class="social-icons">
+                                    <a href="#"><i class="material-icons">code</i></a>
+                                    <a href="#"><i class="material-icons">facebook</i></a>
+                                    <a href="#"><i class="material-icons">business</i></a>
+                                    <a href="#"><i class="material-icons">chat</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-group-item">
+                        <div class="d-flex align-items-center">
+                            <img src="https://via.placeholder.com/50" class="avatar me-3">
+                            <div>
+                                <strong>Jane Smith</strong> - Designer
+                                <p class="mb-1">Specializes in UI/UX, creating visually appealing user experiences.</p>
+                                <div class="social-icons">
+                                    <a href="#"><i class="material-icons">code</i></a>
+                                    <a href="#"><i class="material-icons">facebook</i></a>
+                                    <a href="#"><i class="material-icons">business</i></a>
+                                    <a href="#"><i class="material-icons">chat</i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3">
+                <h4>Recent Activity</h4>
+                <ul class="timeline">
+                    <li class="timeline-item"><strong>John Doe</strong> uploaded a new file <br><small class="text-muted">10 minutes ago</small></li>
+                    <li class="timeline-item"><strong>Jane Smith</strong> completed a design task <br><small class="text-muted">30 minutes ago</small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+
+}

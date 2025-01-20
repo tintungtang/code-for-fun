@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{6B3F76AF-A582-4212-8B9E-23316C67F106}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B3F76AF-A582-4212-8B9E-23316C67F106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3F76AF-A582-4212-8B9E-23316C67F106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3F76AF-A582-4212-8B9E-23316C67F106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3F76AF-A582-4212-8B9E-23316C67F106}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

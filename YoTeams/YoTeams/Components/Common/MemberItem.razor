@@ -1,0 +1,24 @@
+@using YoTeams.Models
+@inject AppDbContext DbContext;
+<div class="d-flex align-items-center">
+    <img src="https://via.placeholder.com/50" class="avatar me-3">
+    <div>
+        <strong>Jane Smith</strong> - Designer
+        <p class="mb-1">Specializes in UI/UX, creating visually appealing user experiences.</p>
+        <div class="social-icons">
+            <a href="#"><i class="material-icons">code</i></a>
+            <a href="#"><i class="material-icons">facebook</i></a>
+            <a href="#"><i class="material-icons">business</i></a>
+            <a href="#"><i class="material-icons">chat</i></a>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<SocialItem> socialItems = new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        // socialItems = await DbContext.Members.ToListAsync();
+    }
+}

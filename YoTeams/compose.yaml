@@ -1,0 +1,6 @@
+﻿services:
+  yoteams:
+    image: yoteams
+    build:
+      context: .
+      dockerfile: YoTeams/Dockerfile

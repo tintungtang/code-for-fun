@@ -1,0 +1,28 @@
+.card {
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.status-online {
+    color: green;
+    font-weight: bold;
+}
+.status-offline {
+    color: gray;
+    font-weight: bold;
+}
+
+.card { border-radius: 10px; transition: 0.2s; }
+.card:hover { transform: scale(1.02); }
+.avatar { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
+.social-icons a { color: #007bff; margin-right: 8px; font-size: 24px; text-decoration: none; }
+.social-icons a:hover { color: #0056b3; }
+.chart-container { width: 100%; max-width: 280px; margin: auto; }
