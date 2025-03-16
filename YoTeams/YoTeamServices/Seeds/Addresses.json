@@ -1,0 +1,22 @@
+[
+    { "profileId": "65f623456789abcdef000001", "street": "123 Main St", "city": "New York", "state": "NY", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000001", "street": "456 Elm St", "city": "Los Angeles", "state": "CA", "country": "USA", "isPrimary": false, "type": "Work" },
+    { "profileId": "65f623456789abcdef000002", "street": "789 Oak St", "city": "Chicago", "state": "IL", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000002", "street": "101 Pine St", "city": "Houston", "state": "TX", "country": "USA", "isPrimary": false, "type": "Mailing" },
+    { "profileId": "65f623456789abcdef000003", "street": "222 Maple Ave", "city": "San Francisco", "state": "CA", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000003", "street": "333 Birch Ln", "city": "Seattle", "state": "WA", "country": "USA", "isPrimary": false, "type": "Work" },
+    { "profileId": "65f623456789abcdef000004", "street": "444 Cedar Blvd", "city": "Denver", "state": "CO", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000004", "street": "555 Spruce Rd", "city": "Boston", "state": "MA", "country": "USA", "isPrimary": false, "type": "Mailing" },
+    { "profileId": "65f623456789abcdef000005", "street": "666 Redwood Dr", "city": "Phoenix", "state": "AZ", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000005", "street": "777 Fir Ct", "city": "Dallas", "state": "TX", "country": "USA", "isPrimary": false, "type": "Work" },
+    { "profileId": "65f623456789abcdef000006", "street": "888 Palm St", "city": "Miami", "state": "FL", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000006", "street": "999 Willow Ave", "city": "Atlanta", "state": "GA", "country": "USA", "isPrimary": false, "type": "Mailing" },
+    { "profileId": "65f623456789abcdef000007", "street": "111 Hickory St", "city": "Portland", "state": "OR", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000007", "street": "222 Aspen Rd", "city": "Austin", "state": "TX", "country": "USA", "isPrimary": false, "type": "Work" },
+    { "profileId": "65f623456789abcdef000008", "street": "333 Magnolia Blvd", "city": "Las Vegas", "state": "NV", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000008", "street": "444 Sycamore Ct", "city": "Philadelphia", "state": "PA", "country": "USA", "isPrimary": false, "type": "Mailing" },
+    { "profileId": "65f623456789abcdef000009", "street": "555 Juniper Ave", "city": "Minneapolis", "state": "MN", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000009", "street": "666 Poplar Dr", "city": "Detroit", "state": "MI", "country": "USA", "isPrimary": false, "type": "Work" },
+    { "profileId": "65f623456789abcdef000010", "street": "777 Oakwood Rd", "city": "Charlotte", "state": "NC", "country": "USA", "isPrimary": true, "type": "Home" },
+    { "profileId": "65f623456789abcdef000010", "street": "888 Cherry St", "city": "Nashville", "state": "TN", "country": "USA", "isPrimary": false, "type": "Mailing" }
+]

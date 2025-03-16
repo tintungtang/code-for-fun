@@ -1,0 +1,7 @@
+[
+  { "roleId": "65f423456789abcdef000001", "permissionId": "65f323456789abcdef000001" },
+  { "roleId": "65f423456789abcdef000001", "permissionId": "65f323456789abcdef000002" },
+  { "roleId": "65f423456789abcdef000002", "permissionId": "65f323456789abcdef000003" },
+  { "roleId": "65f423456789abcdef000002", "permissionId": "65f323456789abcdef000004" },
+  { "roleId": "65f423456789abcdef000003", "permissionId": "65f323456789abcdef000005" }
+]

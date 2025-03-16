@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "65f423456789abcdef000001",
+    "name": "Admin",
+    "description": "Has full system access"
+  },
+  {
+    "_id": "65f423456789abcdef000002",
+    "name": "Developer",
+    "description": "Can write and commit code"
+  },
+  {
+    "_id": "65f423456789abcdef000003",
+    "name": "QA Engineer",
+    "description": "Can test and report bugs"
+  },
+  {
+    "_id": "65f423456789abcdef000004",
+    "name": "Team Lead",
+    "description": "Leads a team of developers and ensures project completion"
+  },
+  {
+    "_id": "65f423456789abcdef000005",
+    "name": "Product Manager",
+    "description": "Oversees product development and roadmap"
+  },
+  {
+    "_id": "65f423456789abcdef000006",
+    "name": "Line Manager",
+    "description": "Manages the career growth and performance of team members"
+  },
+  {
+    "_id": "65f423456789abcdef000007",
+    "name": "Project Manager",
+    "description": "Responsible for project planning, execution, and delivery"
+  }
+]

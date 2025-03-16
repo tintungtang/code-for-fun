@@ -1,6 +1,5 @@
-using Microsoft.EntityFrameworkCore;
-using YoTeams;
 using YoTeams.Components;
+using YoTeams.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,10 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddHttpClient();
+//
+// builder.Services.AddDbContext<AppDbContext>(options =>
+//     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddHttpClient();   
+builder.Services.AddHttpClient(); 
+builder.Services.AddScoped<TeamService>();
+
 
 
 var app = builder.Build();

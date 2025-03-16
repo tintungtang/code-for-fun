@@ -1,0 +1,23 @@
+[
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f623456789abcdef000001", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f623456789abcdef000002", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f623456789abcdef000003", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000004", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000005", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000006", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000007", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000008", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000009", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000001", "memberId": "65f523456789abcdef000010", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000011", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000012", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000013", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000014", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000015", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000016", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000017", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000018", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000019", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true },
+    { "teamId": "65f723456789abcdef000002", "memberId": "65f623456789abcdef000020", "createdAt": "2025-03-15T00:00:00Z", "updatedAt": "2025-03-15T00:00:00Z", "isActive": true }
+]

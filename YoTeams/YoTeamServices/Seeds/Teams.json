@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "65f723456789abcdef000001",
+    "name": "NT Sketchbook",
+    "description": "NT Sketchbook Team",
+    "createdAt": "2023-05-10T08:30:00Z",
+    "updatedAt": "2024-03-15T12:45:00Z",
+    "isActive": true
+  },
+  {
+    "_id": "65f723456789abcdef000002",
+    "name": "NT MicroNest",
+    "description": "NT MicroNest Team",
+    "createdAt": "2022-09-20T10:15:00Z",
+    "updatedAt": "2024-03-15T12:45:00Z",
+    "isActive": true
+  }
+]

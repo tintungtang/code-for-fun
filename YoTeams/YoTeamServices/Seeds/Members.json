@@ -1,0 +1,22 @@
+[
+  { "_id": "65f623456789abcdef000001", "name": "John Doe", "role": "Developer", "joinedDate": "2020-06-15", "power": "Coding", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000002", "name": "Jane Smith", "role": "QA Engineer", "joinedDate": "2019-08-23", "power": "Bug Detection", "rank": "Mid" },
+  { "_id": "65f623456789abcdef000003", "name": "Michael Johnson", "role": "Team Lead", "joinedDate": "2018-04-10", "power": "Leadership", "rank": "Lead" },
+  { "_id": "65f623456789abcdef000004", "name": "Emily Davis", "role": "Product Manager", "joinedDate": "2017-11-05", "power": "Product Strategy", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000005", "name": "Chris Brown", "role": "Developer", "joinedDate": "2021-02-17", "power": "Backend Development", "rank": "Mid" },
+  { "_id": "65f623456789abcdef000006", "name": "Sarah Wilson", "role": "QA Engineer", "joinedDate": "2022-03-29", "power": "Automation Testing", "rank": "Junior" },
+  { "_id": "65f623456789abcdef000007", "name": "David Martinez", "role": "Team Lead", "joinedDate": "2016-09-12", "power": "Project Management", "rank": "Lead" },
+  { "_id": "65f623456789abcdef000008", "name": "Olivia Taylor", "role": "Product Manager", "joinedDate": "2015-05-20", "power": "Market Analysis", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000009", "name": "Daniel White", "role": "Developer", "joinedDate": "2019-07-30", "power": "Frontend Development", "rank": "Mid" },
+  { "_id": "65f623456789abcdef000010", "name": "Sophia Harris", "role": "QA Engineer", "joinedDate": "2020-12-10", "power": "Regression Testing", "rank": "Junior" },
+  { "_id": "65f623456789abcdef000011", "name": "Matthew Clark", "role": "Team Lead", "joinedDate": "2017-06-14", "power": "Agile Coaching", "rank": "Lead" },
+  { "_id": "65f623456789abcdef000012", "name": "Isabella Lewis", "role": "Product Manager", "joinedDate": "2016-10-03", "power": "Roadmap Planning", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000013", "name": "Ethan Walker", "role": "Developer", "joinedDate": "2022-01-25", "power": "Database Optimization", "rank": "Junior" },
+  { "_id": "65f623456789abcdef000014", "name": "Mia Hall", "role": "QA Engineer", "joinedDate": "2021-05-18", "power": "Security Testing", "rank": "Mid" },
+  { "_id": "65f623456789abcdef000015", "name": "Alexander Allen", "role": "Team Lead", "joinedDate": "2019-02-07", "power": "Technical Mentoring", "rank": "Lead" },
+  { "_id": "65f623456789abcdef000016", "name": "Charlotte Young", "role": "Product Manager", "joinedDate": "2018-09-27", "power": "Stakeholder Management", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000017", "name": "James King", "role": "Developer", "joinedDate": "2017-08-22", "power": "API Development", "rank": "Senior" },
+  { "_id": "65f623456789abcdef000018", "name": "Amelia Wright", "role": "QA Engineer", "joinedDate": "2023-01-14", "power": "Performance Testing", "rank": "Junior" },
+  { "_id": "65f623456789abcdef000019", "name": "Benjamin Scott", "role": "Team Lead", "joinedDate": "2014-03-19", "power": "Scrum Mastery", "rank": "Lead" },
+  { "_id": "65f623456789abcdef000020", "name": "Ava Green", "role": "Product Manager", "joinedDate": "2013-12-05", "power": "Competitive Analysis", "rank": "Senior" }
+]

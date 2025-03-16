@@ -1,0 +1,22 @@
+[
+  { "_id": "65f823456789abcdef000001", "name": "JavaScript", "isMandatory": true },
+  { "_id": "65f823456789abcdef000002", "name": "React", "isMandatory": true },
+  { "_id": "65f823456789abcdef000003", "name": "Java", "isMandatory": true },
+  { "_id": "65f823456789abcdef000004", "name": "Spring Boot", "isMandatory": true },
+  { "_id": "65f823456789abcdef000005", "name": "Node.js", "isMandatory": false },
+  { "_id": "65f823456789abcdef000006", "name": "TypeScript", "isMandatory": false },
+  { "_id": "65f823456789abcdef000007", "name": "MongoDB", "isMandatory": false },
+  { "_id": "65f823456789abcdef000008", "name": "PostgreSQL", "isMandatory": false },
+  { "_id": "65f823456789abcdef000009", "name": "Docker", "isMandatory": false },
+  { "_id": "65f823456789abcdef000010", "name": "Kubernetes", "isMandatory": false },
+  { "_id": "65f823456789abcdef000011", "name": "GraphQL", "isMandatory": false },
+  { "_id": "65f823456789abcdef000012", "name": "AWS", "isMandatory": false },
+  { "_id": "65f823456789abcdef000013", "name": "Python", "isMandatory": false },
+  { "_id": "65f823456789abcdef000014", "name": "Django", "isMandatory": false },
+  { "_id": "65f823456789abcdef000015", "name": "Machine Learning", "isMandatory": false },
+  { "_id": "65f823456789abcdef000016", "name": "Cybersecurity", "isMandatory": false },
+  { "_id": "65f823456789abcdef000017", "name": "DevOps", "isMandatory": false },
+  { "_id": "65f823456789abcdef000018", "name": "Agile Methodologies", "isMandatory": false },
+  { "_id": "65f823456789abcdef000019", "name": "Testing Automation", "isMandatory": false },
+  { "_id": "65f823456789abcdef000020", "name": "REST APIs", "isMandatory": false }
+]

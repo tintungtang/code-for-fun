@@ -1,0 +1,32 @@
+[
+  {
+    "_id":"65f323456789abcdef000001",
+    "name": "Create User",
+    "key": "CREATE_USER",
+    "description": "Allows user to create new users"
+  },
+  {
+    "_id": "65f323456789abcdef000002",
+    "name": "Delete User",
+    "key": "DELETE_USER",
+    "description": "Allows user to delete users"
+  },
+  {
+    "_id": "65f323456789abcdef000003",
+    "name": "Edit Content",
+    "key": "EDIT_CONTENT",
+    "description": "Allows user to edit website content"
+  },
+  {
+    "_id": "65f323456789abcdef000004",
+    "name": "View Reports",
+    "key": "VIEW_REPORTS",
+    "description": "Allows user to view system reports"
+  },
+  {
+    "_id": "65f323456789abcdef000005",
+    "name": "View Content",
+    "key": "VIEW_CONTENT",
+    "description": "Allows user to view content"
+  }
+]

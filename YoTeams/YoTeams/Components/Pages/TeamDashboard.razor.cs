@@ -9,7 +9,6 @@ public partial class TeamDashboard : ComponentBase
 {
 
     [Inject] protected NavigationManager NavManager { get; set; }
-    [Inject] protected AppDbContext DbContext { get; set; }
     [Parameter] public int id { get; set; }
 
     protected List<Member> members = new();
@@ -21,6 +20,6 @@ public partial class TeamDashboard : ComponentBase
     
     protected override async Task OnInitializedAsync()
     {
-        members = await DbContext.Members.ToListAsync();
+        // members = await DbContext.Members.ToListAsync();
     }
 }   

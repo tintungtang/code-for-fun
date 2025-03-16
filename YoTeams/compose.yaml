@@ -4,3 +4,9 @@
     build:
       context: .
       dockerfile: YoTeams/Dockerfile
+
+  yoteamservices:
+    image: yoteamservices
+    build:
+      context: .
+      dockerfile: YoTeamServices/Dockerfile

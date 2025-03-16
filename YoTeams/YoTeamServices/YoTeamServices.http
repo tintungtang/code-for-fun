@@ -1,0 +1,6 @@
+@YoTeamServices_HostAddress = http://localhost:5270
+
+GET {{YoTeamServices_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
