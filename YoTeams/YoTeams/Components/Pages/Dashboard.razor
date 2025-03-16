@@ -1,17 +1,10 @@
 ﻿@page "/"
 @using YoTeams.Models
-@using YoTeams.Components.Common.TeamCard
 @using YoTeams.Services
-@inject NavigationManager NavManager
-@inject HttpClient Http
-@inject IConfiguration Configuration
-
+@inject TeamService TeamService
 
 
 <PageTitle>Dashboard</PageTitle>
-
-
-@inject TeamService TeamService
 
 <h3>Team List</h3>
 
@@ -52,6 +45,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         teams = await TeamService.GetTeamsAsync();
+        // teams = new List<Team>();
     }
 }
 

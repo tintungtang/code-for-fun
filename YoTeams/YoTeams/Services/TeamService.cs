@@ -20,6 +20,6 @@ public class TeamService
 
     public async Task<List<Team>> GetTeamsAsync()
     {
-        return await _httpClient.GetFromJsonAsync<List<Team>>( "http://localhost:5270/api/teams") ?? new List<Team>();
+        return await _httpClient.GetFromJsonAsync<List<Team>>( "teams") ?? new List<Team>();
     }
 }

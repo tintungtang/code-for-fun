@@ -1,0 +1,19 @@
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider AuthStateProvider
+
+<CascadingAuthenticationState>
+    <AuthorizeView>
+        <Authorized>
+            @* Do nothing, user is authenticated *@
+        </Authorized>
+        <NotAuthorized>
+            <p>Redirecting to login...</p>
+            @code {
+                protected override void OnInitialized()
+                {
+                    Navigation.NavigateTo("/login", true);
+                }
+            }
+        </NotAuthorized>
+    </AuthorizeView>
+</CascadingAuthenticationState>

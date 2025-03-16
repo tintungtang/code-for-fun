@@ -1,0 +1,81 @@
+@page "/login"
+@using YoTeams.Services
+@inject NavigationManager Navigation
+@inject AuthService AuthService
+@rendermode InteractiveServer
+@inject IJSRuntime JS
+
+
+<h3>Login</h3>
+
+@if (!string.IsNullOrEmpty(ErrorMessage))
+{
+    <div class="alert alert-danger">@ErrorMessage</div>
+}
+
+<EditForm FormName="LoginForm" Model="loginModel">
+    <DataAnnotationsValidator />
+    <div>
+        <label>Username:</label>
+        <InputText @bind-Value="loginModel.Username" class="form-control" />
+    </div>
+    <div>
+        <label>Password:</label>
+        <InputText @bind-Value="loginModel.Password" type="password" class="form-control" />
+    </div>
+    <button type="button" class="btn btn-primary mt-2" @onclick="HandleLogin">Login</button>
+</EditForm>
+
+<script>
+    window.loginUser = async function (username, password) {
+        try {
+            let response = await fetch("http://localhost:5270/api/auth/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password })
+            });
+
+            if (!response.ok) {
+                throw new Error("Login failed");
+            }
+
+            return { success: true, message: "Login successful" };
+        } catch (error) {
+            return { success: false, message: error.message };
+        }
+    };
+</script>
+
+@code {
+    private LoginModel loginModel = new();
+    private string ErrorMessage = "";
+
+    private async Task HandleLogin()
+    {
+
+        try
+        {
+            var result = await JS.InvokeAsync<dynamic>("loginUser", loginModel.Username, loginModel.Password);
+
+            if (result.success)
+            {
+                Console.WriteLine("Login successful!");
+            }
+            else
+            {
+                Console.WriteLine($"Login failed: {result.message}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+
+        }
+    }
+
+    public class LoginModel
+    {
+        public string Username { get; set; } = "";
+        public string Password { get; set; } = "";
+    }
+}

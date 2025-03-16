@@ -104,26 +104,6 @@ builder.Services
 builder.Services.AddAuthorization();
 
 
-// builder.Services.AddAuthentication("Basic")
-//     .AddScheme<AuthenticationSchemeOptions, BasicAuthenticationHandler>("Basic", null);
-//
-// builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//     .AddJwtBearer(options =>
-//     {
-//         options.TokenValidationParameters = new TokenValidationParameters
-//         {
-//             ValidateIssuer = true,
-//             ValidateAudience = true,
-//             ValidateLifetime = true,
-//             ValidateIssuerSigningKey = true,
-//             ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-//             ValidAudience = builder.Configuration["JwtSettings:Audience"],
-//             IssuerSigningKey = new SymmetricSecurityKey(
-//                 Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Secret"])
-//             )
-//         };
-//     });
-
 builder.Services.AddAuthorization();
 // Add API Versioning
 builder.Services.AddApiVersioning(options =>
@@ -139,11 +119,22 @@ builder.Services.AddControllers()
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowBlazorClient", policy =>
+    {
+        policy.WithOrigins("http://localhost:5296") 
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials();
+    });
+});
+
 
 
 var app = builder.Build();
 
-app.UseMiddleware<JwtCookieAuthenticationMiddleware>();
+// app.UseMiddleware<JwtCookieAuthenticationMiddleware>();
 
 using (var scope = app.Services.CreateScope())
 {
@@ -151,7 +142,7 @@ using (var scope = app.Services.CreateScope())
     await initializer.InitializeDatabase();
 }
 
-
+app.UseCors("AllowBlazorClient");
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseAuthorization();
